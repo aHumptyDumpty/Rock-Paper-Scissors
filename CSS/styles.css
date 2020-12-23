@@ -44,7 +44,6 @@ html {
 .btn{
   align-items: center;
   text-align: center;
-  margin: 20px 800px 20px;
 }
 
 .default-img-size {
@@ -61,4 +60,17 @@ html {
 #robot-choice{
   font-size: 30px;
   padding: 20px 12px 12px 12px;
+}
+
+#display-winner{
+  color: #fee715ff;
+  text-align: center;
+}
+
+.centered {
+  position: fixed;
+  top: 63%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
 }

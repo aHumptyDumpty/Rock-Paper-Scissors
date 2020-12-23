@@ -55,5 +55,8 @@ $("#player-img").attr("src", "Images/" + playerSelection + ".png");
 $("#computer-img").attr("src", "Images/" + computerSelection + ".png");
 $("#human-choice").text(playerSelection + " Was Chosen");
 $("#robot-choice").text(computerSelection + " Was Chosen");
+$(".btn").click(function(){
+    location.reload(true);
+})
 
 $("#display-winner").text(result);
