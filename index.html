@@ -4,10 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+
+    <!--Bootstrap 4 CDN href-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"/>
 
     <!--CSS href Styles.css -->
@@ -15,26 +14,19 @@
 
     <!-- GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
   </head>
-  <body></body>
 </html>
-
 <body>
   <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
     <h1 class="display-4 title-screen">Rock Paper Scissors</h1>
   </div>
-
   <div class="container">
     <div class="card-deck mb-3 text-center">
       <div class="card mb-4 box-shadow">
         <div class="card-header">
           <h4 class="my-0 font-weight-normal">You</h4>
         </div>
-
         <div class="card-body">
           <img id = "player-img" class="default-img-size" src="Images/scissors.png" alt="default-img" />
           <h1 id = "human-choice">Was Chosen!</h1>
@@ -51,17 +43,11 @@
       </div>
     </div>
   </div>
-
   <h2 id = "display-winner">Has Won</h2>
-
   <div class = "centered">
-    
     <button type="button" class="btn btn-info">Play Again</button>
   </div>
-
-
-  
   <!-- Javacsript src  -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="RockPaperScissors.js"></script>
+  <script src="app.js"></script>
 </body>

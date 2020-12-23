@@ -68,9 +68,15 @@ html {
 }
 
 .centered {
-  position: fixed;
-  top: 63%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -100px;
+  position: relative;
+  text-align: center;
+  padding-top: 12px;
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+
+  
 }

@@ -1,30 +1,27 @@
-//created "selectionArray" to hold selection of strings
+//Initalize Starter Game values
 let selectionArray = ["Rock", "Paper", "Scissors"];
 var result = "";
 
-//Grab random value from selectionArray and passed to humanSelection
+//Grab random value from selectionArray and pass to humanSelection
 function humanChoice() {
   let humanSelection =
     selectionArray[Math.floor(Math.random() * selectionArray.length)];
   return humanSelection;
 }
 
-//Grab random value from selectionArraay and passed to compSelection
+//Grab random value from selectionArraay and pass to compSelection
 function computerPlay() {
   let compSelection =
     selectionArray[Math.floor(Math.random() * selectionArray.length)];
   return compSelection;
 }
 
+//store player and computer selections in constants 
 const playerSelection = humanChoice();
 const computerSelection = computerPlay();
 
-
-
-
-// function startGame() that takes in two parameters
+// Conditional Game Logic
 function startGame(computerSelection, playerSelection) {
-  // if- if/else statements to match player and computer selections and store winner
   if (computerSelection === "Scissors" && playerSelection === "Rock") {
     result = "Human Wins!";
   } else if (computerSelection === "Paper" && playerSelection === "Rock") {
@@ -47,10 +44,11 @@ function startGame(computerSelection, playerSelection) {
   return result;
 }
 
-let winner = startGame(computerSelection, playerSelection);
+// Winner of game held in var
+var winner = startGame(computerSelection, playerSelection);
 
 
-
+//jQuery for functionality - Update Images - Reload winner text - Reload Page btn.
 $("#player-img").attr("src", "Images/" + playerSelection + ".png");
 $("#computer-img").attr("src", "Images/" + computerSelection + ".png");
 $("#human-choice").text(playerSelection + " Was Chosen");
