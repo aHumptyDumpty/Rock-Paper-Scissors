@@ -49,8 +49,8 @@ var winner = startGame(computerSelection, playerSelection);
 
 
 //jQuery for functionality - Update Images - Reload winner text - Reload Page btn.
-$("#player-img").attr("src", "Images/" + playerSelection + ".png");
-$("#computer-img").attr("src", "Images/" + computerSelection + ".png");
+$("#player-img").attr("src", "img/" + playerSelection + ".png");
+$("#computer-img").attr("src", "img/" + computerSelection + ".png");
 $("#human-choice").text(playerSelection + " Was Chosen");
 $("#robot-choice").text(computerSelection + " Was Chosen");
 $(".btn").click(function(){

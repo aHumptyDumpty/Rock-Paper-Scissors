@@ -41,7 +41,7 @@ html {
   box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
 }
 
-.btn{
+.btn {
   align-items: center;
   text-align: center;
 }
@@ -52,17 +52,17 @@ html {
   width: 100px;
 }
 
-#human-choice{ 
+#human-choice {
   font-size: 30px;
   padding: 20px 12px 12px 12px;
 }
 
-#robot-choice{
+#robot-choice {
   font-size: 30px;
   padding: 20px 12px 12px 12px;
 }
 
-#display-winner{
+#display-winner {
   color: #fee715ff;
   text-align: center;
 }
@@ -77,6 +77,4 @@ html {
   html {
     font-size: 12px;
   }
-
-  
 }
