@@ -40,8 +40,8 @@ function startGame(computerSelection, playerSelection) {
     result = "Human Wins!";
   } else if (computerSelection === "Scissors" && playerSelection === "Scissors") {
     result = "It's a Draw!";
-  }
-  return result;
+  } 
+  return result; 
 }
 
 // Winner of game held in var
