@@ -22,23 +22,23 @@ const computerSelection = computerPlay();
 
 // Conditional Game Logic
 function startGame(computerSelection, playerSelection) {
-  if (computerSelection === "Scissors" && playerSelection === "Rock") {
+  if (computerSelection === "scissors" && playerSelection === "rock") {
     result = "Human Wins!";
-  } else if (computerSelection === "Paper" && playerSelection === "Rock") {
+  } else if (computerSelection === "paper" && playerSelection === "rock") {
     result = "Robot Wins!";
-  } else if (computerSelection === "Rock" && playerSelection === "Rock") {
+  } else if (computerSelection === "rock" && playerSelection === "rock") {
     result = "Its a Draw!";
-  } else if (computerSelection === "Scissors" && playerSelection === "Paper") {
+  } else if (computerSelection === "scissors" && playerSelection === "paper") {
     result = "Robot Wins!";
-  } else if (computerSelection === "Rock" && playerSelection === "Paper") {
+  } else if (computerSelection === "rock" && playerSelection === "paper") {
     result = "Human Wins!";
-  } else if (computerSelection === "Paper" && playerSelection === "Paper") {
+  } else if (computerSelection === "paper" && playerSelection === "paper") {
     result = "It's a Draw!";
-  } else if (computerSelection === "Rock" && playerSelection === "Scissors") {
+  } else if (computerSelection === "rock" && playerSelection === "scissors") {
     result = "Robot Wins!";
-  } else if (computerSelection === "Paper" && playerSelection === "Scissors") {
+  } else if (computerSelection === "paper" && playerSelection === "scissors") {
     result = "Human Wins!";
-  } else if (computerSelection === "Scissors" && playerSelection === "Scissors") {
+  } else if (computerSelection === "scissors" && playerSelection === "scissors") {
     result = "It's a Draw!";
   } 
   return result; 
