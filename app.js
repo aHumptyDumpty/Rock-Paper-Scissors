@@ -24,21 +24,21 @@ const computerSelection = computerPlay();
 function startGame(computerSelection, playerSelection) {
   if (computerSelection === "scissors" && playerSelection === "rock") {
     result = "Human Wins!";
-  } else if (computerSelection === "paper" && playerSelection === "rock") {
+  } else if (computerSelection === "Paper" && playerSelection === "Rock") {
     result = "Robot Wins!";
-  } else if (computerSelection === "rock" && playerSelection === "rock") {
+  } else if (computerSelection === "Rock" && playerSelection === "Rock") {
     result = "Its a Draw!";
-  } else if (computerSelection === "scissors" && playerSelection === "paper") {
+  } else if (computerSelection === "Scissors" && playerSelection === "Paper") {
     result = "Robot Wins!";
-  } else if (computerSelection === "rock" && playerSelection === "paper") {
+  } else if (computerSelection === "Rock" && playerSelection === "Paper") {
     result = "Human Wins!";
-  } else if (computerSelection === "paper" && playerSelection === "paper") {
+  } else if (computerSelection === "Paper" && playerSelection === "Paper") {
     result = "It's a Draw!";
-  } else if (computerSelection === "rock" && playerSelection === "scissors") {
+  } else if (computerSelection === "Rock" && playerSelection === "Scissors") {
     result = "Robot Wins!";
-  } else if (computerSelection === "paper" && playerSelection === "scissors") {
+  } else if (computerSelection === "Paper" && playerSelection === "Scissors") {
     result = "Human Wins!";
-  } else if (computerSelection === "scissors" && playerSelection === "scissors") {
+  } else if (computerSelection === "Scissors" && playerSelection === "Scissors") {
     result = "It's a Draw!";
   } 
   return result; 
