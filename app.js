@@ -44,7 +44,7 @@ function startGame(computerSelection, playerSelection) {
   return result; 
 }
 
-// Winner of game held in var
+// Winner of game 
 var winner = startGame(computerSelection, playerSelection);
 
 
