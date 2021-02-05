@@ -11,3 +11,6 @@ Bootstrap 4, jQuery
 
 Languages:
 HTML5, CSS, Javascript
+
+View live deployed website using github pages below!
+https://ahumptydumpty.github.io/Rock-Paper-Scissors/
